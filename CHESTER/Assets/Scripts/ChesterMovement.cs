@@ -5,19 +5,24 @@ using UnityEngine;
 
 public class ChesterMovement : MonoBehaviour
 {
-    //Variables
+    //Variables moverse
     private float horizontal;
-    private float speed = 2f;
-    [SerializeField] private float jumpingPower = 4f;
-    private bool isFacingRight = true;
-    private bool doubleJump;
     
+    //Varuables dash
+    private float speed = 2f;
     private bool canDash = true;
     private bool isDashing;
     private float dashingPower = 5f;
     private float dashingTime = 0.2f;
     private float dashingCooldown = 1f;
-
+    
+    //Variables salto
+    [SerializeField] private float jumpingPower = 4f;
+    private bool doubleJump;
+    
+    //Variable flip
+    private bool isFacingRight = true;
+    
     //Objetos
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
@@ -32,12 +37,11 @@ public class ChesterMovement : MonoBehaviour
             return;
         }
         
-        //Suavizar la entrada de teclado y devuelve 0,1 o -1 dependiendo de la direccion del personaje
+        //Movimiento hacia los lados
         horizontal = Input.GetAxisRaw("Horizontal");
-        
-        //Marcar animacion de idle y correr
         animator.SetFloat("Speed_new",Mathf.Abs(horizontal));
 
+        //Para que te deje hacer el doble salto una vez que tocas el suelo
         if (IsGrounded() && !Input.GetButton("Jump"))
         {
             doubleJump = false;
@@ -55,17 +59,20 @@ public class ChesterMovement : MonoBehaviour
 
         }
 
+        //Animación cuando saltas
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
         {
             animator.SetBool("Jump_new",true);
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
         
+        //Si intentas deslizarte y puedes hacerlo, llama al método Dash()
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         {
             StartCoroutine(Dash());
         }
         
+        //Llamo al método flip
         Flip();
     }
 
@@ -88,7 +95,7 @@ public class ChesterMovement : MonoBehaviour
         
     }
 
-    //Metodo para cambiar la posicion del PJ dependiendo de su direccion mediante isFacingRight
+    //Metodo para cambiar la orintación del jugador
     private void Flip()
     {
         if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
@@ -100,6 +107,8 @@ public class ChesterMovement : MonoBehaviour
         }
     }
     
+    
+    //Método para deslizarse
     private IEnumerator Dash()
     {
         animator.SetTrigger("Dash_new");
@@ -116,5 +125,4 @@ public class ChesterMovement : MonoBehaviour
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
     }
-
 }

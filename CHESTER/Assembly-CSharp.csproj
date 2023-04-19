@@ -42,6 +42,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ChesterMovement.cs" />
+     <Compile Include="Assets\Scripts\Camara.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Escenario\Jungla\Jungle Asset Pack\parallax background" />
      <Folder Include="Assets\Sprites\Knight\Colour1\Outline\120x80_PNGSheets" />
@@ -79,6 +80,7 @@
      <Folder Include="Assets\Escenario\Jungla\__MACOSX\Jungle Asset Pack\Character\sprites" />
      <Folder Include="Assets\Escenario\Jungla\Jungle Asset Pack\jungle tileset\files" />
      <Folder Include="Assets\Escenario\Jungla\__MACOSX\Jungle Asset Pack\parallax background" />
+     <Folder Include="Assets\Animaciones" />
      <Folder Include="Assets\Sprites\Knight" />
      <Folder Include="Assets\Escenario\Jungla" />
      <Folder Include="Assets\Escenario\Jungla\Jungle Asset Pack\Character" />
