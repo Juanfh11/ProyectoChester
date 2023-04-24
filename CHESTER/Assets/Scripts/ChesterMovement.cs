@@ -9,6 +9,7 @@ public class ChesterMovement : MonoBehaviour
     private float horizontal;
     
     //Varuables dash
+    
     private float speed = 2f;
     private bool canDash = true;
     private bool isDashing;
@@ -40,6 +41,7 @@ public class ChesterMovement : MonoBehaviour
         //Movimiento hacia los lados
         horizontal = Input.GetAxisRaw("Horizontal");
         animator.SetFloat("Speed_new",Mathf.Abs(horizontal));
+        
 
         //Para que te deje hacer el doble salto una vez que tocas el suelo
         if (IsGrounded() && !Input.GetButton("Jump"))
