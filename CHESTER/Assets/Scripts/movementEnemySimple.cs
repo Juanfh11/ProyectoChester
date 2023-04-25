@@ -22,17 +22,14 @@ public class movementEnemySimple : MonoBehaviour
         if (right)
         {
             transform.rotation = Quaternion.Euler(0, 0, 0);
-
         }
         else
         {
             transform.rotation = Quaternion.Euler(0, 180, 0);
-
         }
         if (Physics2D.Raycast(transform.position, transform.right, distancia, layerM))
         {
             right = !right;
-
         }
         //Si detecta la pared, gira
         if (Physics2D.Raycast(transform.position + v3, transform.up * -1, distancia, layerM))
