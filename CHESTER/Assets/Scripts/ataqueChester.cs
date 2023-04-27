@@ -42,10 +42,10 @@ public class ataqueChester : MonoBehaviour
                 colision.transform.GetComponent<Boss>().tomarDano(dano);
                 
             }
-            /*else if (colision.CompareTag("mago"))
+            else if (colision.CompareTag("mago"))
             {
-                colision.transform.GetComponent<Mago>().tomarDano(dano);
-            }*/
+                colision.transform.GetComponent<MagoScript>().tomarDano(dano);
+            }
         }
     }
 
