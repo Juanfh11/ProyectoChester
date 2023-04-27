@@ -44,6 +44,7 @@
      <Compile Include="Assets\Scripts\movementEnemySimple.cs" />
      <Compile Include="Assets\Scripts\Jefe_Habilidad_Behaviour.cs" />
      <Compile Include="Assets\Scripts\BarradeVida.cs" />
+     <Compile Include="Assets\Scripts\ataqueChester.cs" />
      <Compile Include="Assets\Scripts\Jefe_Caminar_Behaviour.cs" />
      <Compile Include="Assets\Scripts\Boss.cs" />
      <Compile Include="Assets\Scripts\HabilidadJefe.cs" />
@@ -52,7 +53,6 @@
      <Compile Include="Assets\Scripts\CombateJugador.cs" />
      <Compile Include="Assets\Scripts\Jefe_Idle_Behaviour.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
-     <Compile Include="Assets\Scripts\ataqueChester.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Prefabs" />
      <Folder Include="Assets\Escenario\Jungla\Jungle Asset Pack\parallax background" />
