@@ -21,6 +21,9 @@ public class ChesterMovement : MonoBehaviour
     [SerializeField] private float jumpingPower = 4f;
     private bool doubleJump;
     
+    //Rebote del jugador
+    [Header("Rebote")] [SerializeField] private float velocidadRebote;
+    
     //Variable flip
     private bool isFacingRight = true;
     
@@ -126,5 +129,10 @@ public class ChesterMovement : MonoBehaviour
         isDashing = false;
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
+    }
+
+    public void Rebote()
+    {
+        rb.velocity = new Vector2(rb.velocity.x, velocidadRebote);
     }
 }
