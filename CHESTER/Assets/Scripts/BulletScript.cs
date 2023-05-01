@@ -1,50 +1,47 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BulletScript : MonoBehaviour
 {
     
-        public float Speed;
+    public float Speed;
     
-        private Rigidbody2D Rigidbody2D;
-        private Vector2 Direction;
-        [SerializeField] private Transform bola;
-        [SerializeField] private float radioAtaque;
-        [SerializeField] private float danoAtaque;
+    private Rigidbody2D Rigidbody2D;
+    private Vector2 Direction;
+    [SerializeField] private Transform bola;
+    [SerializeField] private float radioAtaque;
+    [SerializeField] private float danoAtaque;
     
-        void Start()
-        {
-            Rigidbody2D = GetComponent<Rigidbody2D>();
-        }
+    void Start()
+    {
+        Rigidbody2D = GetComponent<Rigidbody2D>();
+    }
     
-        private void FixedUpdate()
-        {
-            Rigidbody2D.velocity = Direction * Speed;
-        }
+    private void FixedUpdate()
+    {
+        Rigidbody2D.velocity = Direction * Speed;
+    }
     
-        public void SetDirection(Vector2 direction)
-        {
-            Direction = direction;
-            Debug.Log(Direction);
-        }
+    public void SetDirection(Vector2 direction)
+    {
+        Direction = direction;
+    }
     
-        public void DestroyBullet()
-        {
-            Destroy(gameObject);
-        }
+    public void DestroyBullet()
+    {
+        Destroy(gameObject);
+    }
         
-        public void Ataque()
-        {
-            Collider2D[] objetos = Physics2D.OverlapCircleAll(bola.position,radioAtaque);
+    public void Ataque()
+    {
+        Collider2D[] objetos = Physics2D.OverlapCircleAll(bola.position,radioAtaque);
 
-            foreach (Collider2D colision in objetos)
+        foreach (Collider2D colision in objetos)
+        {
+            if (colision.CompareTag("Player"))
             {
-                if (colision.CompareTag("Player"))
-                {
-                    colision.GetComponent<CombateJugador>().TomarDano(danoAtaque);
-                    DestroyBullet();
-                }
+                colision.GetComponent<CombateJugador>().TomarDano(danoAtaque);
+                DestroyBullet();
             }
         }
+    }
 }

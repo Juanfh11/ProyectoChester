@@ -1,17 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 public class MagoScript : MonoBehaviour
 {
     public GameObject bola;
     public GameObject chester;
     private float LastShoot;
+    [Header("Amimación")]
+    [SerializeField]private Animator animator;
     
-    private Animator animator;
-    
-    [Header("Vida")]
+    [Header("Vida Mago")]
     [SerializeField] private float vida;
     [SerializeField] private BarradeVida barraDeVida;
 
@@ -25,18 +22,17 @@ public class MagoScript : MonoBehaviour
 
         float distance = Mathf.Abs(chester.transform.position.x - transform.position.x);
 
-        if (distance < 1.0f && Time.time > LastShoot + +0.25f)
+        if (distance < 2.0f && Time.time > LastShoot + +2.0f)
         {
-            Shoot();
+            Shoot(direction);
             LastShoot = Time.time;  
         }
 
         
     }
-    private void Shoot()
+    private void Shoot(Vector3 direction)
     {
-        Vector3 direction;
-        if (transform.localScale.x == 1.0f) direction = Vector3.right;
+        if (direction.x >= 0.0f) direction = Vector3.right;
         else direction = Vector3.left;
 
         GameObject bullet = Instantiate(bola, transform.position + direction * 0.1f, Quaternion.identity);

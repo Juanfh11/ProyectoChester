@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e5b8f7e350cad94b90853678c5ad906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 0.5
+  Speed: 1
   bola: {fileID: 8071602416408912915}
   radioAtaque: 0.03
   danoAtaque: 2
