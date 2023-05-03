@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1971,12 +1971,12 @@ TextureImporter:
       Necromancer_creativekind-Sheet_96: -1120764713
       Necromancer_creativekind-Sheet_64: -647230988
       Necromancer_creativekind-Sheet_98: -925558256
-      Necromancer_creativekind-Sheet_16: -32815700
-      Necromancer_creativekind-Sheet_107: -436353922
-      Necromancer_creativekind-Sheet_71: -854307878
       Necromancer_creativekind-Sheet_31: -381250513
-      Necromancer_creativekind-Sheet_15: 1353967530
+      Necromancer_creativekind-Sheet_107: -436353922
+      Necromancer_creativekind-Sheet_16: -32815700
+      Necromancer_creativekind-Sheet_71: -854307878
       Necromancer_creativekind-Sheet_2: -75834221
+      Necromancer_creativekind-Sheet_15: 1353967530
       Necromancer_creativekind-Sheet_49: 992534462
       Necromancer_creativekind-Sheet_35: -1113257457
       Necromancer_creativekind-Sheet_47: 696664422
