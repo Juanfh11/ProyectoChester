@@ -8,6 +8,8 @@ TagManager:
   - enemigo
   - End
   - mago
+  - key
+  - door
   layers:
   - Default
   - TransparentFX

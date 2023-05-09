@@ -82,7 +82,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
      <Compile Include="Assets\Scripts\CombateJugador.cs" />
-     <Compile Include="Assets\pocion.cs" />
+     <Compile Include="Assets\Scripts\pocion.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
      <Compile Include="Assets\Scripts\Jefe_Idle_Behaviour.cs" />
@@ -95,6 +95,8 @@
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\PuntosMonedas.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+     <Compile Include="Assets\Scripts\llave.cs" />
+     <Compile Include="Assets\Scripts\puerta.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <Folder Include="Assets\Prefabs" />
@@ -174,6 +176,7 @@
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts" />
      <Folder Include="Assets\Escenario\Jungla\Jungle Asset Pack\ Chacter with outline\sprites" />
      <Folder Include="Assets\Sprites\Bringer-Of-Death\Individual Sprite\No Effect Sprites\Death" />
+     <Folder Include="Assets\Sprites\Key Items\Selected" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <Folder Include="Assets\TextMesh Pro\Shaders" />
      <Folder Include="Assets\Sprites\Bringer-Of-Death\Individual Sprite\No Effect Sprites\Spell" />
@@ -216,6 +219,7 @@
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Textures" />
      <Folder Include="Assets\TextMesh Pro\Documentation" />
+     <Folder Include="Assets\Sprites\Key Items" />
      <Folder Include="Assets\Escenario\Jungla" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras" />
      <Folder Include="Assets\Escenario\Jungla\Jungle Asset Pack\Character" />

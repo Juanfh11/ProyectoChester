@@ -29,7 +29,7 @@ public class HabilidadJefe : MonoBehaviour
         {
             if (colisiones.CompareTag("Player"))
             {
-                //colisiones.GetComponent<CombateJugador>().tomarDano(dano);
+                colisiones.GetComponent<CombateJugador>().TomarDano(dano);
             }
         }
     }
