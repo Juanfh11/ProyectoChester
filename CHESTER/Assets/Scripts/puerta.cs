@@ -5,15 +5,17 @@ using UnityEngine;
 
 public class puerta : MonoBehaviour
 {
-    public GameObject nokey;
-    public GameObject key;
+    //public GameObject nokey;
+    //public GameObject key;
 
     public Animator animPuerta;
+
+    public AudioClip sonido;
     // Start is called before the first frame update
     void Start()
     {
-        key.SetActive(false);
-        nokey.SetActive(false);
+        //key.SetActive(false);
+        //nokey.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -23,9 +25,15 @@ public class puerta : MonoBehaviour
             llave.llavePuntuacion += 1;
             Destroy(collision.gameObject);
         }
+        
+        if (collision.tag.Equals("door") && llave.llavePuntuacion == 1)
+        {
+            
+            Camera.main.GetComponent<AudioSource>().PlayOneShot(sonido);
+        }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    /*private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.tag.Equals("door") && llave.llavePuntuacion == 0)
         {
@@ -36,19 +44,18 @@ public class puerta : MonoBehaviour
         {
             key.SetActive(false);
         }
-    }
+    }*/
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.tag.Equals("door") && llave.llavePuntuacion == 0)
+        /*if (collision.tag.Equals("door") && llave.llavePuntuacion == 0)
         {
             nokey.SetActive(true);
-            animPuerta.SetTrigger("abrir");
-        }
+        }*/
 
         if (collision.tag.Equals("door") && llave.llavePuntuacion == 1)
         {
-            key.SetActive(true);
+            //key.SetActive(true);
             animPuerta.SetTrigger("abrir");
         }
     }

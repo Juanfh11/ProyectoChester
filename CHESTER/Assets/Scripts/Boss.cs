@@ -19,7 +19,8 @@ public class Boss : MonoBehaviour
     [SerializeField] private float radioAtaque;
     [SerializeField] private float danoAtaque;
 
-
+    public AudioClip sonidoMuerte;
+    public AudioClip sonidoAparecer;
 
 
     // Start is called before the first frame update
@@ -44,6 +45,7 @@ public class Boss : MonoBehaviour
         barraDeVida.cambiarVidaActual(vida);
         if (vida<=0)
         {
+            Camera.main.GetComponent<AudioSource>().PlayOneShot(sonidoMuerte);
             animator.SetTrigger("Muerte");
         }
     }
@@ -51,6 +53,11 @@ public class Boss : MonoBehaviour
     private void Muerte()
     {
         Destroy(gameObject);
+    }
+
+    private void Aparecer()
+    {
+        Camera.main.GetComponent<AudioSource>().PlayOneShot(sonidoAparecer);
     }
 
     public void mirarJugador()

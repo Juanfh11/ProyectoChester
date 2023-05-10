@@ -73,6 +73,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+     <Compile Include="Assets\Scripts\llave.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
      <Compile Include="Assets\Scripts\HabilidadJefe.cs" />
@@ -80,6 +81,7 @@
      <Compile Include="Assets\Scripts\ChesterMovement.cs" />
      <Compile Include="Assets\Scripts\Camara.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\Scripts\puerta.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
      <Compile Include="Assets\Scripts\CombateJugador.cs" />
      <Compile Include="Assets\Scripts\pocion.cs" />
@@ -95,8 +97,6 @@
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\PuntosMonedas.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-     <Compile Include="Assets\Scripts\llave.cs" />
-     <Compile Include="Assets\Scripts\puerta.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <Folder Include="Assets\Prefabs" />
@@ -143,6 +143,7 @@
      <Folder Include="Assets\Sprites\Knight\Colour1\NoOutline\120x80_PNGSheets" />
      <Folder Include="Assets\Sprites\Bringer-Of-Death\Individual Sprite\No Effect Sprites\Cast" />
      <Folder Include="Assets\Sprites\Knight\Colour2\Outline\120x80_PNGSheets" />
+     <Folder Include="Assets\Sprites\Puerta" />
      <Folder Include="Assets\Sprites\Knight\Colour2\Outline\120x80_gifs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets\Escenario\Jungla\Jungle Asset Pack" />

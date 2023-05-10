@@ -6,6 +6,7 @@ using UnityEngine;
 public class skeletonRebote : MonoBehaviour
 {
     private Animator animator;
+    public AudioClip sonido;
 
     private void Start()
     {
@@ -22,6 +23,7 @@ public class skeletonRebote : MonoBehaviour
                 {
                     animator.SetTrigger("Golpe");
                     col.gameObject.GetComponent<ChesterMovement>().Rebote();
+                    Camera.main.GetComponent<AudioSource>().PlayOneShot(sonido);
                 }
             }
         }

@@ -10,6 +10,7 @@ public class ataqueChester : MonoBehaviour
     private Animator animator;
     [SerializeField] float tiempoEntreAtaque;
     [SerializeField] float tiempoSiguienteAtaque;
+    public AudioClip Sound;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +34,7 @@ public class ataqueChester : MonoBehaviour
     public void Golpe()
     {
         animator.SetTrigger("Golpe");
+        Camera.main.GetComponent<AudioSource>().PlayOneShot(Sound);
         Collider2D[] objetos = Physics2D.OverlapCircleAll(controladorGolpe.position, radioGolpe);
 
         foreach (Collider2D colision in objetos)

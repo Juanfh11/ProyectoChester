@@ -12,6 +12,8 @@ public class MagoScript : MonoBehaviour
     [SerializeField] private float vida;
     [SerializeField] private BarradeVida barraDeVida;
 
+    public AudioClip sonido;
+
     private void Update()
     {
         if (chester == null) return;
@@ -37,6 +39,7 @@ public class MagoScript : MonoBehaviour
 
         GameObject bullet = Instantiate(bola, transform.position + direction * 0.1f, Quaternion.identity);
         bullet.GetComponent<BulletScript>().SetDirection(direction);
+        Camera.main.GetComponent<AudioSource>().PlayOneShot(sonido);
     }
     
     public void tomarDano(float dano)
