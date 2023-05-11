@@ -734,7 +734,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &218638945
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1058,7 +1058,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &287933650
 Animator:
   serializedVersion: 5
@@ -1517,7 +1517,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &455238261
 Animator:
   serializedVersion: 5
@@ -3522,6 +3522,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vida: 10
   barraDeVida: {fileID: 215930158}
+  sonidoMuerte: {fileID: 8300000, guid: 0079e045eae1d5d43a159ea9b7f1d620, type: 3}
+  sonidoDano: {fileID: 8300000, guid: 70237b83b854af54fbe3a9a0afef751f, type: 3}
 --- !u!114 &1083592965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5250,7 +5252,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1866768508
 MonoBehaviour:
   m_ObjectHideFlags: 0

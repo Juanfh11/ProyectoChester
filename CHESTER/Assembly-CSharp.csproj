@@ -202,6 +202,7 @@
      <Folder Include="Assets\Escenario\Jungla\Jungle Asset Pack\Character\sprites" />
      <Folder Include="Assets\Sprites\Knight\Colour2\NoOutline\120x80_PNGSheets" />
      <Folder Include="Assets\Escenario\png" />
+     <Folder Include="Assets\Sounds" />
      <Folder Include="Assets\Escenario\Jungla\__MACOSX\Jungle Asset Pack\Character\sprites" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <Folder Include="Assets\Escenario\Fantasy Swamp Forest\Free\BG_1" />

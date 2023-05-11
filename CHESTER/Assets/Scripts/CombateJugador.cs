@@ -10,6 +10,9 @@ public class CombateJugador : MonoBehaviour
     [Header("Vida")]
     [SerializeField] private float vida;
     [SerializeField] private BarradeVida barraDeVida;
+    
+    public AudioClip sonidoMuerte;
+    public AudioClip sonidoDano;
 
     // Start is called before the first frame update
     void Start()
@@ -22,10 +25,12 @@ public class CombateJugador : MonoBehaviour
     public void TomarDano(float dano)
     {
         vida -= dano;
+        Camera.main.GetComponent<AudioSource>().PlayOneShot(sonidoDano);
         barraDeVida.cambiarVidaActual(vida);
         if (vida<=0)
         {
             animator.SetTrigger("Muerte");
+            Camera.main.GetComponent<AudioSource>().PlayOneShot(sonidoMuerte);
         }
 
     }
