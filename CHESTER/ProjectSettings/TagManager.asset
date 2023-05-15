@@ -10,6 +10,7 @@ TagManager:
   - mago
   - key
   - door
+  - pared
   layers:
   - Default
   - TransparentFX
@@ -19,8 +20,8 @@ TagManager:
   - UI
   - Ground
   - Suelo
-  - 
-  - 
+  - pared
+  - plataforma
   - 
   - 
   - 
