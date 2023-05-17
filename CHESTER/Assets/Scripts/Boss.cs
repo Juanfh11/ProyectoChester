@@ -71,7 +71,7 @@ public class Boss : MonoBehaviour
 
     public void Ataque()
     {
-        Collider2D[] objetos = Physics2D.OverlapCircleAll(controladorAtaque.position,radioAtaque);
+        Collider2D[] objetos = Physics2D.OverlapCircleAll(controladorAtaque.position, radioAtaque);
 
         foreach (Collider2D colision in objetos)
         {

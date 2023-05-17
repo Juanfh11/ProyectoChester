@@ -42,6 +42,11 @@ public class BulletScript : MonoBehaviour
                 colision.GetComponent<CombateJugador>().TomarDano(danoAtaque);
                 DestroyBullet();
             }
+
+            if (colision.CompareTag("pared") || colision.CompareTag("ground"))
+            {
+                DestroyBullet();
+            }
         }
     }
 }

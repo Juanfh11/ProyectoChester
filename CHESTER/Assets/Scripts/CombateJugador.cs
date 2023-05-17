@@ -37,9 +37,15 @@ public class CombateJugador : MonoBehaviour
     
     public void RecuperaVida(float sumaVida)
     {
-        vida += sumaVida;
+        if ((vida += sumaVida) < 10)
+        {
+            vida += sumaVida;
+        }
+        else
+        {
+            vida = 10;
+        }
         barraDeVida.cambiarVidaActual(vida);
-
     }
     // Update is called once per frame
     void Update()

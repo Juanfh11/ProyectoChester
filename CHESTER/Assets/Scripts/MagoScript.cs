@@ -22,9 +22,10 @@ public class MagoScript : MonoBehaviour
         if (direction.x >= 0.0f) transform.localScale = new Vector3(0.02f, 0.02f, 1.0f);
         else transform.localScale = new Vector3(-0.02f, 0.02f, 1.0f);
 
-        float distance = Mathf.Abs(chester.transform.position.x - transform.position.x);
+        float distanceX = Mathf.Abs(chester.transform.position.x - transform.position.x);
+        float distanceY = Mathf.Abs(chester.transform.position.y - transform.position.y);
 
-        if (distance < 2.0f && Time.time > LastShoot + +2.0f)
+        if ((distanceX < 2.0f) && (Time.time > LastShoot + +2.0f) && ((distanceY < 2.0f) || (distanceY > -2.0f)))
         {
             Shoot(direction);
             LastShoot = Time.time;  
