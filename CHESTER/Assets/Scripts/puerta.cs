@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class puerta : MonoBehaviour
 {
@@ -57,7 +58,13 @@ public class puerta : MonoBehaviour
         {
             //key.SetActive(true);
             animPuerta.SetTrigger("abrir");
+            StartCoroutine(WaitForSceneLoad(2));
         }
+    }
+    
+    private IEnumerator WaitForSceneLoad(int seconds) {
+        yield return new WaitForSeconds(seconds);
+        SceneManager.LoadScene(2);
     }
 }
 
