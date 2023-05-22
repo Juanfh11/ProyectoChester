@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\BarradeVida.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\Scripts\PlayerRespawn.cs" />
      <Compile Include="Assets\Scripts\ataqueChester.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
@@ -100,10 +101,9 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\Checkpoint.cs" />
      <Compile Include="Assets\Scripts\PuntosMonedas.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-     <Compile Include="Assets\Scripts\Checkpoint.cs" />
-     <Compile Include="Assets\Scripts\PlayerRespawn.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Puzzle stage &amp; settings GUI Pack\Image_green\s_button" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -131,6 +131,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <Folder Include="Assets\Pixel2DCastleTileset" />
      <Folder Include="Assets\Sprites\Mago" />
+     <Folder Include="Assets\Animaciones\CheckPoint" />
      <Folder Include="Assets\Scripts" />
      <Folder Include="Assets\Puzzle stage &amp; settings GUI Pack\Image_red\b" />
      <Folder Include="Assets\Escenario\Jungla\__MACOSX" />
