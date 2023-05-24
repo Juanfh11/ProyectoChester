@@ -54,14 +54,7 @@ public class CombateJugador : MonoBehaviour
     }
     void Die()
     {
-        //Respawn();
-        vida = 6;
+        vida = 10;
         barraDeVida.cambiarVidaActual(vida);
     }
-
-    /*void Respawn()
-    {
-        transform.position = startPos;
-        
-    }*/
 }
