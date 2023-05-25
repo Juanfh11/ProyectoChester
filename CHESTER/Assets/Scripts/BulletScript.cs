@@ -7,6 +7,7 @@ public class BulletScript : MonoBehaviour
     
     private Rigidbody2D Rigidbody2D;
     private Vector2 Direction;
+    private Vector2 Rotation;
     [SerializeField] private Transform bola;
     [SerializeField] private float radioAtaque;
     [SerializeField] private float danoAtaque;
@@ -25,7 +26,7 @@ public class BulletScript : MonoBehaviour
     {
         Direction = direction;
     }
-    
+
     public void DestroyBullet()
     {
         Destroy(gameObject);

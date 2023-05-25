@@ -26,13 +26,7 @@ public class ChesterMovement : MonoBehaviour
     
     //Variable flip
     private bool isFacingRight = true;
-    
-    //variables para la plataforma movil
-    RaycastHit2D hit;
-    public Vector3 v3;
-    public LayerMask layer;
-    public float distance;
-    
+
     //Objetos
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
@@ -40,35 +34,8 @@ public class ChesterMovement : MonoBehaviour
     [SerializeField] private TrailRenderer tr;
     public Animator animator;
 
-    bool checkCollision
-    {
-        get
-        {
-            hit = Physics2D.Raycast(transform.position + v3, transform.up * -1, distance, layer);
-            return hit.collider != null;
-        }
-    }
-
-    public void detectorPlataforma()
-    {
-        if (checkCollision)
-        {
-            transform.parent = hit.collider.transform;
-        }
-        else
-        {
-            transform.parent = null;
-        }
-    }
-
-    void OnDrawGizmos()
-    {
-        Gizmos.DrawRay(transform.position + v3, transform.up * -1 * distance);
-    }
-
     void Update()
     {
-        detectorPlataforma();
         if (isDashing)
         {
             return;

@@ -5,37 +5,54 @@ using UnityEngine;
 
 public class plataformaMovil : MonoBehaviour
 {
-    public Transform[] pose;
+    [SerializeField] private Transform[] puntosMovimiento;
 
-    public float speed;
+    [SerializeField] private float velocidadMovimiento;
 
-    public int ID;
+    private int siguientePlataforma = 1;
 
-    public int suma;
-    // Start is called before the first frame update
-    void Start()
+    private bool ordenPlataformas = true;
+
+    private void FixedUpdate()
     {
-        transform.position = pose[0].position;
+        if (ordenPlataformas && siguientePlataforma + 1 >= puntosMovimiento.Length)
+        {
+            ordenPlataformas = false;
+        }
+
+        if (!ordenPlataformas && siguientePlataforma <= 0)
+        {
+            ordenPlataformas = true;
+        }
+
+        if (Vector2.Distance(transform.position, puntosMovimiento[siguientePlataforma].position) < 0.1f)
+        {
+            if (ordenPlataformas)
+            {
+                siguientePlataforma += 1;
+            }
+            else
+            {
+                siguientePlataforma -= 1;
+            }
+        }
+
+        transform.position = Vector2.MoveTowards(transform.position, puntosMovimiento[siguientePlataforma].position, velocidadMovimiento * Time.deltaTime);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (transform.position == pose[ID].position)
+        if (collision.gameObject.CompareTag("Player"))
         {
-            ID += suma;
+            collision.transform.SetParent(this.transform);
         }
+    }
 
-        if (ID == pose.Length - 1)
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
         {
-            suma = -1;
+            other.transform.SetParent(null);
         }
-
-        if (ID == 0)
-        {
-            suma = 1;
-        }
-
-        transform.position = Vector3.MoveTowards(transform.position, pose[ID].position, speed * Time.deltaTime);
     }
 }
