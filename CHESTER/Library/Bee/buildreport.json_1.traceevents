@@ -1,0 +1,608 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1685383792960653, "dur": 4814474, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685383792961560, "dur": 12509, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685383792974073, "dur": 113809, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685383793087887, "dur": 2773190, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685383795861081, "dur": 1903689, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685383797764773, "dur": 10353, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685383797776044, "dur": 20, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1685383795283988, "dur": 518243, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685383795286930, "dur": 150760, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685383795724308, "dur": 19824, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685383795744140, "dur": 58047, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685383795747835, "dur": 51289, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685383795826922, "dur": 6013, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685383795823124, "dur": 9910, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685383797776164, "dur": 373, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1685383796061139, "dur":7071, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383796068250, "dur":525, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1685383796069004, "dur":180, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1685383796069184, "dur":2596, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1685383796072000, "dur":3476, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383796075476, "dur":4, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797726858, "dur":542, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727400, "dur":32, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727432, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727441, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727459, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727464, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727480, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727484, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727502, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727507, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727524, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727529, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727545, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727550, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727573, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727578, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727592, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727597, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727612, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727618, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727631, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727636, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727652, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727657, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727671, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727708, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797727773, "dur":4058, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1685383796074216, "dur":1314, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685383796075530, "dur":25269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685383796100800, "dur":1206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1685383796102147, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685383796168765, "dur":9821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1685383796178947, "dur":1527048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685383797706003, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685383797706015, "dur":20597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685383797726769, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1685383797726776, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685383796074400, "dur":1174, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685383796075574, "dur":26110, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685383796101686, "dur":72543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1685383796174244, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685383796213210, "dur":20385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1685383796233768, "dur":130090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685383796363866, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685383796363881, "dur":3446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685383796367369, "dur":75095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685383796442471, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685383796442487, "dur":4321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685383796446845, "dur":520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685383796447371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685383796447384, "dur":6212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685383796453631, "dur":657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685383796454294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685383796454306, "dur":6316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685383796460690, "dur":142872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685383796603569, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685383796603584, "dur":5081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685383796608702, "dur":73195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685383796681905, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685383796681918, "dur":4327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685383796686278, "dur":106954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685383796793238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685383796793248, "dur":15678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685383796809004, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685383796809054, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685383796809135, "dur":8774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685383796817993, "dur":496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1685383796818495, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685383796818585, "dur":6498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1685383796825143, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685383796825178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685383796825191, "dur":7732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685383796832971, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1685383796833009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685383796833023, "dur":9344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1685383796842403, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1685383796842431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685383796842440, "dur":2975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1685383796845449, "dur":881406, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685383796074567, "dur":1051, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685383796075618, "dur":26026, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685383796101646, "dur":785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1685383796102453, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685383796165624, "dur":76606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1685383796242760, "dur":184252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796427021, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685383796427039, "dur":4072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796431170, "dur":492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796431668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685383796431681, "dur":3340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796435065, "dur":645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796435717, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685383796435731, "dur":6466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796442240, "dur":2402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796444649, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685383796444664, "dur":8307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796453015, "dur":830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796453851, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685383796453865, "dur":14430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796468343, "dur":104936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796573285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685383796573300, "dur":8753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796582091, "dur":51854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796633953, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685383796633967, "dur":3190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796637194, "dur":48094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796685294, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685383796685307, "dur":3560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796688912, "dur":501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796689420, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685383796689434, "dur":5518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796695032, "dur":769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796695811, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685383796695866, "dur":7404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796703305, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796703713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685383796703726, "dur":3418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796707185, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796707584, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685383796707598, "dur":6226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796713865, "dur":132233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796846103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685383796846115, "dur":3259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685383796849409, "dur":877417, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685383796074809, "dur":843, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685383796075653, "dur":25071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685383796100759, "dur":8992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1685383796109772, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685383796114532, "dur":23358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1685383796138299, "dur":55104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1685383796193422, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685383796193705, "dur":39264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1685383796233428, "dur":55387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796288823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685383796290105, "dur":3137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796293286, "dur":73647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796366942, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685383796366973, "dur":13895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796380901, "dur":59993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796440900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685383796441000, "dur":6430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796447464, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796447945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685383796447957, "dur":6912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796454903, "dur":57850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796512760, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685383796512775, "dur":3276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796516114, "dur":50170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796566289, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685383796566301, "dur":6726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796573068, "dur":545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796573620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685383796573633, "dur":3087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796576762, "dur":762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796577529, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685383796577542, "dur":5554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796583138, "dur":457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796583600, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685383796583614, "dur":3087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796586737, "dur":53773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796640532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685383796640545, "dur":5974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796646558, "dur":49675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796696247, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685383796696262, "dur":5011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796701315, "dur":526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796701848, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685383796701868, "dur":3501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796705403, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796705785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685383796705795, "dur":6489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796712318, "dur":141247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796853570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685383796853580, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685383796855854, "dur":870971, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685383796075086, "dur":649, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685383796075736, "dur":24970, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685383796100756, "dur":910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1685383796101700, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685383796115662, "dur":31497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1685383796148463, "dur":66533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1685383796215018, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685383796215064, "dur":19538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1685383796234769, "dur":177943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685383796412843, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685383796412864, "dur":8549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685383796421453, "dur":202848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685383796624307, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685383796624325, "dur":7434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685383796631799, "dur":3118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685383796634923, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685383796634936, "dur":5146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685383796640124, "dur":47658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685383796687788, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685383796687802, "dur":5918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685383796693820, "dur":604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685383796694432, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685383796694455, "dur":3372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685383796697864, "dur":475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685383796698345, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685383796698358, "dur":6183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685383796704573, "dur":370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685383796704949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685383796704967, "dur":5049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685383796710073, "dur":421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685383796710503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685383796710518, "dur":6480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685383796717040, "dur":199884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685383796916960, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685383796916970, "dur":2633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685383796919634, "dur":807209, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685383796075304, "dur":457, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685383796075762, "dur":24954, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685383796100758, "dur":9917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1685383796110690, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685383796119415, "dur":24264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1685383796144074, "dur":688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1685383796144775, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685383796145316, "dur":7428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1685383796153129, "dur":784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1685383796153933, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685383796153969, "dur":13448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1685383796167806, "dur":148149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685383796315962, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685383796316837, "dur":3650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685383796320631, "dur":596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685383796321233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685383796321409, "dur":5389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685383796326846, "dur":58785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685383796385639, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685383796385655, "dur":5711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685383796391410, "dur":77157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685383796468579, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685383796468600, "dur":12412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685383796481048, "dur":56742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685383796537799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685383796537814, "dur":8501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685383796546352, "dur":650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685383796547007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685383796547020, "dur":12624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685383796559702, "dur":109989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685383796669698, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685383796669714, "dur":4047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685383796673803, "dur":857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685383796674667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685383796674695, "dur":7796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685383796682528, "dur":430284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685383797112821, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685383797112843, "dur":3466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685383797116354, "dur":610486, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796075509, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796075510, "dur":25186, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796100761, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1685383796100791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796105255, "dur":1459, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1685383796106732, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1685383796106841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796107928, "dur":27098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1685383796135034, "dur":728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1685383796135784, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796140589, "dur":12060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1685383796153038, "dur":715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1685383796153767, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796154484, "dur":12120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1685383796166998, "dur":610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1685383796167729, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796167761, "dur":44303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1685383796212427, "dur":88138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER.exe" }}
+,{ "pid":12345, "tid":7, "ts":1685383796300572, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796300584, "dur":3742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER.exe" }}
+,{ "pid":12345, "tid":7, "ts":1685383796304360, "dur":89411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796393778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796393793, "dur":4513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796398355, "dur":155598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796553959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796553970, "dur":9632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796563647, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796564124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796564136, "dur":3405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796567580, "dur":68526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796636112, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796636125, "dur":4325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796640484, "dur":51705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796692200, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796692223, "dur":4775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796697034, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796697453, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796697468, "dur":7693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796705195, "dur":464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796705664, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796705675, "dur":4909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796710623, "dur":1033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796711662, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796711675, "dur":24835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796736553, "dur":6827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796743386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796743399, "dur":4137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796747623, "dur":833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796748462, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796748480, "dur":5127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796753639, "dur":498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796754142, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796754163, "dur":8183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796762383, "dur":520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796762908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796762920, "dur":4674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796767633, "dur":766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796768410, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796768425, "dur":6419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796774877, "dur":14347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796789231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796789244, "dur":21007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685383796810301, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1685383796810345, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796810361, "dur":7893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1685383796818295, "dur":17688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1685383796835989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796835999, "dur":6040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1685383796842078, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1685383796842114, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685383796842126, "dur":5251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1685383796847603, "dur":879220, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685383796075715, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685383796075717, "dur":25398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685383796101116, "dur":79615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1685383796180747, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685383796194826, "dur":36851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1685383796231885, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1685383796232285, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685383796233385, "dur":30152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1685383796263671, "dur":109834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685383796373513, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685383796373529, "dur":4397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685383796377981, "dur":80996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685383796458988, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685383796459011, "dur":5908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685383796464960, "dur":101009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685383796565977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685383796565996, "dur":10997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685383796577028, "dur":58167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685383796635201, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685383796635223, "dur":5447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685383796640711, "dur":596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685383796641316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685383796641331, "dur":3289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685383796644654, "dur":93310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685383796737970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685383796737981, "dur":5386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685383796743405, "dur":2192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685383796745603, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685383796745616, "dur":4978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685383796750628, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685383796751006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685383796751017, "dur":3484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685383796754539, "dur":8722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685383796763266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685383796763276, "dur":11190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685383796774496, "dur":625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685383796775126, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685383796775139, "dur":5085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685383796780264, "dur":66785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685383796847056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685383796848559, "dur":3666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685383796852263, "dur":874576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796075940, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796075941, "dur":25824, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796101768, "dur":753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1685383796102534, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796165743, "dur":11104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1685383796177215, "dur":509171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796686392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796686848, "dur":17637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796704626, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796705012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796705021, "dur":5359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796710416, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796710803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796710813, "dur":6763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796717651, "dur":504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796718161, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796718174, "dur":5635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796723854, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796724310, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796724323, "dur":3037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796727395, "dur":489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796727889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796727901, "dur":2961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796730897, "dur":676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796731618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796731635, "dur":2940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796734619, "dur":513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796735138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796735151, "dur":3045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796738228, "dur":1821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796740057, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796740077, "dur":3381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796743489, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796743920, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796743933, "dur":4185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796748157, "dur":731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796748893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796748904, "dur":4788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796753723, "dur":1494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796755222, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796755234, "dur":8074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796763339, "dur":3028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796766373, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796766387, "dur":7937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796774360, "dur":1911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796776320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796776335, "dur":7089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685383796783460, "dur":529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1685383796783995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796784861, "dur":2842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1685383796787740, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1685383796787779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796787790, "dur":5057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1685383796792896, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":9, "ts":1685383796792937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796792957, "dur":8594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":9, "ts":1685383796801612, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1685383796801666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796801686, "dur":17698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1685383796819414, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1685383796819544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796819555, "dur":8951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1685383796835796, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1685383796835853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796835865, "dur":6551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1685383796842452, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1685383796842855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685383796842870, "dur":3162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1685383796846073, "dur":880777, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796076190, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796076191, "dur":24520, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796100756, "dur":93022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1685383796193797, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796194644, "dur":6745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1685383796201726, "dur":227928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1685383796429660, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796429671, "dur":6718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1685383796436568, "dur":4031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796440606, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796440636, "dur":4756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796445427, "dur":46440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796491875, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796491889, "dur":3519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796495445, "dur":468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796495918, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796495972, "dur":2753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796498756, "dur":45405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796544170, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796544187, "dur":4113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796548338, "dur":833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796549178, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796549192, "dur":3530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796552759, "dur":687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796553452, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796553465, "dur":8352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796561881, "dur":49643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796611531, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796611599, "dur":4882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796616522, "dur":464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796616991, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796617005, "dur":7074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796624129, "dur":55855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796679992, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796680006, "dur":5532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796685579, "dur":516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796686100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796686112, "dur":3397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796689543, "dur":1802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796691374, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796691433, "dur":5136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796696612, "dur":1228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796697848, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796697866, "dur":6314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796704212, "dur":477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796704697, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796704713, "dur":3759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796708505, "dur":2069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796710583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796710602, "dur":8346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796718984, "dur":644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796719634, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796719650, "dur":4731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796724418, "dur":447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796724870, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796724883, "dur":2838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796727761, "dur":473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796728239, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796728251, "dur":2681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796730965, "dur":6888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796737859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796737871, "dur":14144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796752049, "dur":605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796752660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796752672, "dur":2891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796755596, "dur":6897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796762537, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796762551, "dur":5164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796767747, "dur":926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796768679, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796768693, "dur":7468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796776194, "dur":868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796777068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796777079, "dur":3020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796780137, "dur":536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796780678, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796780691, "dur":4490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685383796785217, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1685383796785258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796785429, "dur":5551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1685383796791025, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":10, "ts":1685383796791079, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796791107, "dur":5170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":10, "ts":1685383796796323, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1685383796796360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796796372, "dur":42670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1685383796839086, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1685383796839118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685383796839128, "dur":5054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1685383796844218, "dur":882610, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685383796076417, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685383796076419, "dur":24282, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685383796100759, "dur":199957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1685383796300722, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685383796309763, "dur":8280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1685383796318176, "dur":76585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685383796394768, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685383796394783, "dur":10351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685383796405173, "dur":72397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685383796477578, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685383796477592, "dur":3892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685383796481517, "dur":440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685383796481963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685383796481976, "dur":3196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685383796485206, "dur":60541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685383796545753, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685383796545765, "dur":4974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685383796550779, "dur":53537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685383796604323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685383796604337, "dur":3366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685383796607747, "dur":77203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685383796684957, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685383796684971, "dur":4521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685383796689546, "dur":2559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685383796692125, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685383796692169, "dur":5292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685383796697971, "dur":1394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685383796699372, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685383796699387, "dur":8658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685383796708079, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685383796708467, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685383796708479, "dur":5383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685383796713897, "dur":198513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685383796912416, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685383796912428, "dur":2323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685383796914777, "dur":812065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685383796076669, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685383796076670, "dur":24050, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685383796100754, "dur":102408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1685383796203176, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685383796203248, "dur":29695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1685383796233169, "dur":188971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685383796422146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685383796422159, "dur":6751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685383796428964, "dur":50528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685383796479499, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685383796479515, "dur":18867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685383796498418, "dur":86331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685383796584756, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685383796584771, "dur":9151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685383796593967, "dur":284845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685383796878822, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685383796878840, "dur":3362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Adios/Desktop/BazarChino/CHESTER_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685383796882231, "dur":844606, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685383797735140, "dur":3732, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1685383797776609, "dur": 1349, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685383797776025, "dur": 1978, "ph": "X", "name": "Write chrome-trace events", "args": {} },
