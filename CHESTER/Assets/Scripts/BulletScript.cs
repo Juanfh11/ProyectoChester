@@ -11,6 +11,7 @@ public class BulletScript : MonoBehaviour
     [SerializeField] private Transform bola;
     [SerializeField] private float radioAtaque;
     [SerializeField] private float danoAtaque;
+    private SpriteRenderer sr;
     
     void Start()
     {
@@ -25,13 +26,16 @@ public class BulletScript : MonoBehaviour
     public void SetDirection(Vector2 direction)
     {
         Direction = direction;
+        
     }
 
     public void DestroyBullet()
     {
         Destroy(gameObject);
     }
-        
+
+    
+
     public void Ataque()
     {
         Collider2D[] objetos = Physics2D.OverlapCircleAll(bola.position,radioAtaque);
