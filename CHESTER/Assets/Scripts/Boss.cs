@@ -21,11 +21,16 @@ public class Boss : MonoBehaviour
 
     public AudioClip sonidoMuerte;
     public AudioClip sonidoAparecer;
+    public AudioClip sonidoAtaque;
+    
+    public GameObject chester;
+    private bool iniciado;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        iniciado = false;
         animator = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
         barraDeVida.inicializarBarraDeVida(vida);
@@ -35,8 +40,19 @@ public class Boss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         float distanciaJugador = Vector2.Distance(transform.position,jugador.position);
         animator.SetFloat("distanciaJugador",distanciaJugador);
+        
+        float distanceX = Mathf.Abs(chester.transform.position.x - transform.position.x);
+        float distanceY = Mathf.Abs(chester.transform.position.y - transform.position.y);
+
+        if ((distanceX < 3.5f && distanceX > -3.5f) && ((distanceY < 3.5f) && (distanceY > -3.5f)) && !iniciado)
+        {
+            iniciado = true;
+            animator.enabled = true;
+        }
+        
     }
 
     public void tomarDano(float dano)
@@ -72,7 +88,7 @@ public class Boss : MonoBehaviour
     public void Ataque()
     {
         Collider2D[] objetos = Physics2D.OverlapCircleAll(controladorAtaque.position, radioAtaque);
-
+        Camera.main.GetComponent<AudioSource>().PlayOneShot(sonidoAtaque);
         foreach (Collider2D colision in objetos)
         {
             if (colision.CompareTag("Player"))

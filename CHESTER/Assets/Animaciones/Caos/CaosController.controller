@@ -303,7 +303,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   habilidad: {fileID: 1971736005271514109, guid: dbd05d05342ad6d4893816617e71b5e5, type: 3}
-  offsetY: 0.4
+  offsetY: 0.5
+  sonido: {fileID: 8300000, guid: 285f09d3e75fcb44ba85f403bf103db6, type: 3}
 --- !u!1101 &3281330768967651904
 AnimatorStateTransition:
   m_ObjectHideFlags: 1

@@ -16,7 +16,8 @@ public class pocion : MonoBehaviour
 
     [SerializeField] private int vida;
 
-
+    public AudioClip sonido;
+    
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
@@ -25,29 +26,22 @@ public class pocion : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
         Collider2D[] objetos = Physics2D.OverlapBoxAll(posicionCaja.position, dimensionesCaja, 0f);
-
-
+        
         foreach (Collider2D colisionador in objetos)
         {
             if (colisionador.CompareTag("Player"))
             {
+                Camera.main.GetComponent<AudioSource>().PlayOneShot(sonido);
                 colisionador.transform.GetComponent<CombateJugador>().RecuperaVida(vida);
                 Destroy(gameObject);
             }
-
         }
-
-
     }
 
     private void OnDrawGizmos()
     {
         Gizmos.color = UnityEngine.Color.blue;
-
         Gizmos.DrawWireCube(controlador.position, dimensionesCaja);
-
     }
 }
