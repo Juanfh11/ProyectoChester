@@ -5,10 +5,11 @@ using TMPro;
 
 public class PuntosMonedas : MonoBehaviour
 {
+    //Variables
     public GameManager gameManager;
     public TextMeshProUGUI puntos;
 
-    // Update is called once per frame
+    // Metodo Update, imprime por pantalla los puntos que tienes
     void Update()
     {
         puntos.text = gameManager.PuntosTotales.ToString();

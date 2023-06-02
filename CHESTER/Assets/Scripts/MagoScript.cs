@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class MagoScript : MonoBehaviour
 {
+    //Variables
     public GameObject bola;
     public GameObject chester;
     private float LastShoot;
@@ -18,6 +19,11 @@ public class MagoScript : MonoBehaviour
 
     public AudioClip sonido;
 
+    /**
+     * Metodo Update:
+     * El mago dispara en la direccion en la que se encuentra el jugador y
+     * solo dispara cuando el jugador esta a una distancia concreta
+     */
     private void Update()
     {
         if (chester == null) return;
@@ -27,7 +33,6 @@ public class MagoScript : MonoBehaviour
         else
         {
             transform.localScale = new Vector3(-0.02f, 0.02f, 1.0f);
-            
         }
 
         float distanceX = Mathf.Abs(chester.transform.position.x - transform.position.x);
@@ -40,6 +45,10 @@ public class MagoScript : MonoBehaviour
         }
         
     }
+    
+    /**
+     * Metodo que crea la bola de fuego y "dispara"
+     */
     private void Shoot(Vector3 direction)
     {
         GameObject bullet = Instantiate(bola, transform.position + direction * 0.1f, Quaternion.identity);
@@ -57,6 +66,7 @@ public class MagoScript : MonoBehaviour
         Camera.main.GetComponent<AudioSource>().PlayOneShot(sonido);
     }
     
+    //Metodo para que el enemigo reciba daño o muera
     public void tomarDano(float dano)
     {
         vida -= dano;
@@ -67,9 +77,9 @@ public class MagoScript : MonoBehaviour
         }
     }
     
+    //Metodo que destruye al mago cuando muere
     private void Muerte()
     {
         Destroy(gameObject);
     }
-
 }

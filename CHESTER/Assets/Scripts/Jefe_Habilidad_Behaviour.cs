@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Jefe_Habilidad_Behaviour : StateMachineBehaviour
 {
-    
+    //Variables
     [SerializeField] private GameObject habilidad;
     [SerializeField] private float offsetY;
     private Boss jefe;
     private Transform jugador;
     public AudioClip sonido;
+    
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {

@@ -5,12 +5,10 @@ using UnityEngine;
 
 public class plataformaTemporal : MonoBehaviour
 {
+    //Variables
     [SerializeField] private float tiempoEspera;
-
     private Rigidbody2D rb;
-
     [SerializeField] private float velocidadRotacion;
-
     private bool caida = false;
     
     void Start()
@@ -40,7 +38,7 @@ public class plataformaTemporal : MonoBehaviour
         rb.AddForce(new Vector2(0.1f, 0));
     }
 
-    // Update is called once per frame
+    //Metodo Update
     void Update()
     {
         if (caida)

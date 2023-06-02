@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class CombateJugador : MonoBehaviour
 {
+    //Variables
     private Animator animator;
-    
     private Vector2 startPos;
     [Header("Vida")]
     [SerializeField] private float vida;
     [SerializeField] private BarradeVida barraDeVida;
-    
     public AudioClip sonidoMuerte;
     public AudioClip sonidoDano;
 
-    // Start is called before the first frame update
+    //Metodo Start
     void Start()
     {
         startPos = transform.position;
@@ -22,6 +21,9 @@ public class CombateJugador : MonoBehaviour
         barraDeVida.inicializarBarraDeVida(vida);
     }
 
+    /**
+     * Metodo que sirve para restarle la vida a Chester y si su vida es 0 o menor se reproduce su muerte
+     */
     public void TomarDano(float dano)
     {
         vida -= dano;
@@ -35,6 +37,9 @@ public class CombateJugador : MonoBehaviour
 
     }
     
+    /**
+     * Metodo que recupera la vida cuando tocas una pocion
+     */
     public void RecuperaVida(float sumaVida)
     {
         if ((vida += sumaVida) < 10)
@@ -47,11 +52,8 @@ public class CombateJugador : MonoBehaviour
         }
         barraDeVida.cambiarVidaActual(vida);
     }
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
+    //Metodo que se llama cuando el jugador muere
     void Die()
     {
         vida = 10;

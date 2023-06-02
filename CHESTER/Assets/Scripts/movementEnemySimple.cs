@@ -10,12 +10,11 @@ public class movementEnemySimple : MonoBehaviour
     public LayerMask layerM;
     public bool right;
     public float speed;
-
     RaycastHit hit2;
     public Vector3 v3;
 
 
-    // Update is called once per frame
+    // Metodo Update
     void Update()
     {
         //Si right es falso, cambiara de direccion
@@ -42,11 +41,10 @@ public class movementEnemySimple : MonoBehaviour
         }
     }
 
-    //  Dibujamos 2 lineas para detectar la pared y el suelo
+    //Dibujamos 2 lineas para detectar la pared y el suelo
     private void OnDrawGizmos()
     {
         Gizmos.DrawRay(transform.position, transform.right * distancia);
         Gizmos.DrawRay(transform.position + v3, transform.up * -1 * distancia);
-
     }
 }

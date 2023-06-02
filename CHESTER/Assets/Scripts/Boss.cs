@@ -27,7 +27,7 @@ public class Boss : MonoBehaviour
     private bool iniciado;
 
 
-    // Start is called before the first frame update
+    //Metodo Start, en el se asignan valor a algunas variables
     void Start()
     {
         iniciado = false;
@@ -37,10 +37,12 @@ public class Boss : MonoBehaviour
         jugador = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
 
-    // Update is called once per frame
+    /**
+     * Metodo Update
+     * Se coje la distancia del enemigo al jugador y se activa el animator del enemigo si está a cierta distancia
+     */
     void Update()
     {
-
         float distanciaJugador = Vector2.Distance(transform.position,jugador.position);
         animator.SetFloat("distanciaJugador",distanciaJugador);
         
@@ -52,9 +54,11 @@ public class Boss : MonoBehaviour
             iniciado = true;
             animator.enabled = true;
         }
-        
     }
 
+    /*
+     * Metodo que resta la vida al enemigo y si su vida es menor o igual que 0 se llama a la animacion de muerte
+     */
     public void tomarDano(float dano)
     {
         vida -= dano;
@@ -66,16 +70,19 @@ public class Boss : MonoBehaviour
         }
     }
 
+    //Metodo que destruye el objeto cuando se muere el enemigo
     private void Muerte()
     {
         Destroy(gameObject);
     }
 
+    //Metodo que sirve para poner el sonido del enemigo al aparecer
     private void Aparecer()
     {
         Camera.main.GetComponent<AudioSource>().PlayOneShot(sonidoAparecer);
     }
 
+    //Metodo que sirve para que el enemigo esté mirando al jugador
     public void mirarJugador()
     {
         if ((jugador.position.x>transform.position.x && !mirandoDerecha) || (jugador.position.x<transform.position.x && mirandoDerecha))
@@ -85,6 +92,7 @@ public class Boss : MonoBehaviour
         }
     }
 
+    //Metodo que sirve para atacar a Chester y llama al método para restarle la vida
     public void Ataque()
     {
         Collider2D[] objetos = Physics2D.OverlapCircleAll(controladorAtaque.position, radioAtaque);
@@ -98,6 +106,7 @@ public class Boss : MonoBehaviour
         }
     }
 
+    //Metodo para imprimir el area de daño del enemigo
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;

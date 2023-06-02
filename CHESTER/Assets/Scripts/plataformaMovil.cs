@@ -5,14 +5,13 @@ using UnityEngine;
 
 public class plataformaMovil : MonoBehaviour
 {
+    //Variables
     [SerializeField] private Transform[] puntosMovimiento;
-
     [SerializeField] private float velocidadMovimiento;
-
     private int siguientePlataforma = 1;
-
     private bool ordenPlataformas = true;
 
+    //
     private void FixedUpdate()
     {
         if (ordenPlataformas && siguientePlataforma + 1 >= puntosMovimiento.Length)

@@ -6,19 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class puerta : MonoBehaviour
 {
-    //public GameObject nokey;
-    //public GameObject key;
-
+    //Variables
     public Animator animPuerta;
-
     public AudioClip sonido;
-    // Start is called before the first frame update
-    void Start()
-    {
-        //key.SetActive(false);
-        //nokey.SetActive(false);
-    }
 
+    //Metodo para que cuando el jugador se acerque a la puerta y este tenga la llave se abra
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag.Equals("key"))
@@ -29,39 +21,21 @@ public class puerta : MonoBehaviour
         
         if (collision.tag.Equals("door") && llave.llavePuntuacion == 1)
         {
-            
             Camera.main.GetComponent<AudioSource>().PlayOneShot(sonido);
         }
     }
 
-    /*private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.tag.Equals("door") && llave.llavePuntuacion == 0)
-        {
-            nokey.SetActive(false);
-        }
-
-        if (collision.tag.Equals("door") && llave.llavePuntuacion == 1)
-        {
-            key.SetActive(false);
-        }
-    }*/
-
+    //Metodo para abrir la puerta
     private void OnTriggerStay2D(Collider2D collision)
     {
-        /*if (collision.tag.Equals("door") && llave.llavePuntuacion == 0)
-        {
-            nokey.SetActive(true);
-        }*/
-
         if (collision.tag.Equals("door") && llave.llavePuntuacion == 1)
         {
-            //key.SetActive(true);
             animPuerta.SetTrigger("abrir");
             StartCoroutine(WaitForSceneLoad(2));
         }
     }
     
+    //Metodo para cargar el menu de final del juego cuando la puerta se abra
     private IEnumerator WaitForSceneLoad(int seconds) {
         yield return new WaitForSeconds(seconds);
         SceneManager.LoadScene(2);

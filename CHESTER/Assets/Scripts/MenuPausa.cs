@@ -6,10 +6,12 @@ using UnityEngine;
 
 public class MenuPausa : MonoBehaviour
 {
+    //Variables
     [SerializeField] private GameObject botonPausa;
     [SerializeField] private GameObject menuPausa;
     public bool juegoPausado = false;
 
+    //Metodo Update
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -25,6 +27,7 @@ public class MenuPausa : MonoBehaviour
         }
     }
 
+    //Pausa el juego
     public void pausa()
     {
         juegoPausado = true;
@@ -33,6 +36,7 @@ public class MenuPausa : MonoBehaviour
         menuPausa.SetActive(true);
     }
 
+    //Reaunuda el juego
     public void reanudar()
     {
         juegoPausado = false;
@@ -41,6 +45,7 @@ public class MenuPausa : MonoBehaviour
         menuPausa.SetActive(false);
     }
 
+    //Cierra el juego
     public void quitar()
     {
         Debug.Log("cerrando....");

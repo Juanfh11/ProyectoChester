@@ -36,6 +36,7 @@ public class ChesterMovement : MonoBehaviour
 
     void Update()
     {
+        //Si el jugador está haciendo un dash regresa
         if (isDashing)
         {
             return;
@@ -131,6 +132,7 @@ public class ChesterMovement : MonoBehaviour
         canDash = true;
     }
 
+    //Metodo para rebotar cuando saltas contra el enemigo esqueleto con mangual
     public void Rebote()
     {
         rb.velocity = new Vector2(rb.velocity.x, velocidadRebote);

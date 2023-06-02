@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Jefe_Caminar_Behaviour : StateMachineBehaviour
 {
-
+    //Variables
     private Boss jefe;
     private Rigidbody2D rb2D;
     [SerializeField] private float velocidadDeMovimiento;

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ataqueChester : MonoBehaviour
 {
+    //Variables
     [SerializeField] private Transform controladorGolpe;
     [SerializeField] private float radioGolpe;
     [SerializeField] private float dano;
@@ -11,19 +12,25 @@ public class ataqueChester : MonoBehaviour
     [SerializeField] float tiempoEntreAtaque;
     [SerializeField] float tiempoSiguienteAtaque;
     public AudioClip Sound;
-    // Start is called before the first frame update
+    
+    
+    // Metodo Start
     void Start()
     {
+        //Asigno a la variable animator el animator de Chester
         animator=GetComponent<Animator>();
     }
 
-    // Update is called once per frame
+    // Metodo Update
     void Update()
     {
+        //Condición para calcular el cooldown del ataque
         if (tiempoSiguienteAtaque > 0)
         {
             tiempoSiguienteAtaque-=Time.deltaTime;
         }
+        
+        //Si el cooldown ya es 0 o menor y se hace click con el raton ataca
         if (Input.GetButtonDown("Fire1") && tiempoSiguienteAtaque <=0)
         {
             Golpe();
@@ -31,6 +38,12 @@ public class ataqueChester : MonoBehaviour
         }
     }
 
+    
+    /**
+     * Metodo Golpe
+     * Se llama a este método cuando Chester hace un ataque, en el se activa el sonido
+     * y se le resta el daño al enemigo si se le da.
+     */
     public void Golpe()
     {
         animator.SetTrigger("Golpe");
@@ -51,6 +64,7 @@ public class ataqueChester : MonoBehaviour
         }
     }
 
+    //Metodo para dibujar el area del golpe del jugador
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;

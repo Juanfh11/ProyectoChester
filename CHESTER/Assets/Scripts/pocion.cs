@@ -5,25 +5,25 @@ using UnityEngine.Serialization;
 
 public class pocion : MonoBehaviour
 {
+    //Variables
     [SerializeField] private Transform controlador;
-
     [SerializeField] private GameObject player;
-
     Rigidbody2D rigidbody2D;
-
     [SerializeField] private Vector2 dimensionesCaja;
     [SerializeField] private Transform posicionCaja;
-
     [SerializeField] private int vida;
-
     public AudioClip sonido;
     
+    //Metod Start
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
+    /**
+     * Metodo Update
+     * Se comprueba si el jugador ha colisionado con la pocion, si es así se llaman a los metodos para sumar la vida
+     */
     void Update()
     {
         Collider2D[] objetos = Physics2D.OverlapBoxAll(posicionCaja.position, dimensionesCaja, 0f);
@@ -39,6 +39,7 @@ public class pocion : MonoBehaviour
         }
     }
 
+    //Metodo para ver su area de efecto
     private void OnDrawGizmos()
     {
         Gizmos.color = UnityEngine.Color.blue;

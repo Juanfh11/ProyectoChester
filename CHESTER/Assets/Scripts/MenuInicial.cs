@@ -7,15 +7,11 @@ using TMPro;
 
 public class MenuInicial : MonoBehaviour
 {
-
+    //Variables
     public GameObject menuPrincipal;
     public GameObject menuOpciones;
 
-    void Start()
-    {
-
-    }
-
+    //Metodo Update
     void Update()
     {
         // A cada frame se comprueba si el jugador ha presionado la tecla escape
@@ -42,5 +38,4 @@ public class MenuInicial : MonoBehaviour
         Debug.Log("Saliendo...");
         Application.Quit();
     }
-
 }

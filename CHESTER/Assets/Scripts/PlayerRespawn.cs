@@ -5,8 +5,10 @@ using UnityEngine;
 
 public class PlayerRespawn : MonoBehaviour
 {
+    //Variable
     private float checkPointPositionsX, checkPointPositionY;
     
+    //Metodo Start, posición del punto de guardado
     void Start()
     {
         if (PlayerPrefs.GetFloat("checkPointPositionX") != 0)
@@ -16,6 +18,7 @@ public class PlayerRespawn : MonoBehaviour
         }
     }
 
+    //Establece la posicion del punto de guardado cuando pasas por el
     public void ReachedCheckPoint(float x, float y)
     {
         PlayerPrefs.SetFloat("checkPointPositionX",x);

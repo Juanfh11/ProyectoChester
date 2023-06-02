@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Camara : MonoBehaviour
 {
+    //Variable
     public GameObject Jugador;
     
     void Update()

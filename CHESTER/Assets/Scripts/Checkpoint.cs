@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class Checkpoint : MonoBehaviour
 {
+    /*
+     * Cuando el jugador choque con el collider del punto de guardado se establece la posición de respawn
+     */
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.CompareTag("Player"))
