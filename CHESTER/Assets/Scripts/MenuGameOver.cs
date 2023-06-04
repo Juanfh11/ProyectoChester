@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuGameOver : MonoBehaviour
 {
@@ -9,5 +10,11 @@ public class MenuGameOver : MonoBehaviour
     {
         Debug.Log("cerrando....");
         Application.Quit();
+    }
+
+    //metodo para volver al menú principal
+    public void menu()
+    {
+        SceneManager.LoadScene(0);
     }
 }

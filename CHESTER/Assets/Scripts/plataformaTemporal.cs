@@ -16,6 +16,8 @@ public class plataformaTemporal : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
+    //metodo para detectar que el jugador colisiona con la plataforma y esta lanza la corrutina
+    //y cuando colisione con el suelo se destruya
     private void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.CompareTag("Player"))
@@ -29,6 +31,7 @@ public class plataformaTemporal : MonoBehaviour
         }
     }
 
+    //corrutina para para que la plataforma caiga despues de ciertos segundos
     private IEnumerator Caida(Collision2D col)
     {
         yield return new WaitForSeconds(tiempoEspera);
@@ -38,7 +41,7 @@ public class plataformaTemporal : MonoBehaviour
         rb.AddForce(new Vector2(0.1f, 0));
     }
 
-    //Metodo Update
+    //Metodo en el que se realiza la rotacion de la plataforma en cada frame
     void Update()
     {
         if (caida)

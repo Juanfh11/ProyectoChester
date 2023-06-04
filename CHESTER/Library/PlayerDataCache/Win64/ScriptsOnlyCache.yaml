@@ -65,8 +65,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -220,6 +222,10 @@ ScriptsOnlyBuild:
     - Class: 49
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -389,7 +395,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9582}
     - Class: 114
-      Script: {instanceID: 31038}
+      Script: {instanceID: 31064}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -695,7 +701,7 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: b11306f62cdd72c0ca633deac3798e1e
+      Hash: 98812eb41e4b7fbce5687f0f04c64744
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Jefe_Habilidad_Behaviour
@@ -1061,7 +1067,7 @@ ScriptsOnlyBuild:
     className: BufferManager
   - hash:
       serializedVersion: 2
-      Hash: 9283392f88a12e2fca21fcec46b9df4e
+      Hash: 714a16e646df9098b59801a0e513bee4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Boss
@@ -1463,7 +1469,7 @@ ScriptsOnlyBuild:
     className: CombateJugador
   - hash:
       serializedVersion: 2
-      Hash: d7673c72bf32251f48df085f0c075292
+      Hash: 7e5bdf692eb9ece80767dc025ef591fe
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: pocion
@@ -1730,4 +1736,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/GameOver.unity
-  playerPath: C:/Users/Adios/Desktop/BazarChino/Chester/CHESTER.exe
+  playerPath: C:/Users/Adios/Desktop/CHESTER.exe
