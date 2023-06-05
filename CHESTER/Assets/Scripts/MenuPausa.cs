@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using JetBrains.Annotations;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuPausa : MonoBehaviour
 {
@@ -48,7 +49,7 @@ public class MenuPausa : MonoBehaviour
     //Cierra el juego
     public void quitar()
     {
-        Debug.Log("cerrando....");
-        Application.Quit();
+        // Cargar la escena del juego
+        SceneManager.LoadScene(0);
     }
 }

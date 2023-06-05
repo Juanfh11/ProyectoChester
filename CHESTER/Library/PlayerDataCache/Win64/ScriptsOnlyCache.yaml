@@ -65,10 +65,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -153,6 +151,9 @@ ScriptsOnlyBuild:
     methodName: pausa
   - assembly: Assembly-CSharp
     fullTypeName: MenuGameOver
+    methodName: menu
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuGameOver
     methodName: quitar
   sceneClasses:
     Assets/Scenes/GameOver.unity:
@@ -169,6 +170,10 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -205,6 +210,12 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     Assets/Scenes/Menu.unity:
     - Class: 1
@@ -395,7 +406,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9582}
     - Class: 114
-      Script: {instanceID: 31064}
+      Script: {instanceID: 36262}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1736,4 +1747,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/GameOver.unity
-  playerPath: C:/Users/Adios/Desktop/CHESTER.exe
+  playerPath: C:/Users/alcor/Desktop/CHESTER.exe

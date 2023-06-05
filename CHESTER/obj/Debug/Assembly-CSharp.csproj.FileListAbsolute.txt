@@ -1,0 +1,2 @@
+C:\Users\alcor\Documents\GitHub\ProyectoChester\CHESTER\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+C:\Users\alcor\Documents\GitHub\ProyectoChester\CHESTER\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
